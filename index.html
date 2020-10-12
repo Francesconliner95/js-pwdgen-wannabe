@@ -3,11 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
-        <p>Password: <span id="psw"></span></p>
-
+        <div class="container">
+            <h2>Fail Password Generator</h2>
+            <h3>(Hover on "gray" to show password)</h3>
+            <div class="psw-spawn">
+                <p>Password: </p>
+                <span id="no-psw">********</span>
+                <span id="psw"></span>
+            </div>
+        </div>
         <script src="main.js" charset="utf-8"></script>
     </body>
 </html>
